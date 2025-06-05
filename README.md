@@ -45,8 +45,7 @@ The project is structured into the following core components:
 - Boost.Asio library
 - CMake or Make (for building)
 
-### Compilation (Example using Make)
-```bash
-make
-### 📂 Folder Structure
+###📂 Folder Structure
 <pre> chatRoomCpp/ ├── .github/ │ └── workflows/ │ └── c-cpp.yml # GitHub Actions workflow file ├── .vscode/ # VSCode workspace settings (optional) ├── chatRoom.cpp # Main server logic ├── chatRoom.hpp # Header for server and room management ├── client.cpp # Client-side implementation ├── message.hpp # Message encoding/decoding ├── Makefile # Build script └── README.md # Project documentation </pre>
+
+
